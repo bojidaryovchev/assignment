@@ -1,0 +1,16 @@
+<form>
+  <input type="text" name="animal" placeholder="Animal" [(ngModel)]="animal" />
+  <input
+    type="text"
+    name="animalSound"
+    placeholder="Animal Sound"
+    [(ngModel)]="animalSound"
+  />
+  <button type="submit" (click)="addAnimal()">Add Animal</button>
+</form>
+
+<app-verse
+  *ngFor="let farmEntry of farm"
+  [animal]="getAnimal(farmEntry)"
+  [animalSound]="getAnimalSound(farmEntry)"
+></app-verse>
