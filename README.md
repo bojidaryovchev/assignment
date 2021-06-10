@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
+There are 2 main pages - /auto and /manual - the /auto page contains a bunch of predefined animals with their corresponding sounds and just renders a verse for each one of them, and the /manual page does the same as well as giving us the ability to add our own animals dynamically (the state of the added animals is not preserved as that is not part of the assignment). The components are accompanied by a couple of very basic unit tests to ensure stability.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
