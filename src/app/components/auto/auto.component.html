@@ -1,0 +1,5 @@
+<app-verse
+  *ngFor="let farmEntry of farm"
+  [animal]="getAnimal(farmEntry)"
+  [animalSound]="getAnimalSound(farmEntry)"
+></app-verse>

@@ -1,0 +1,8 @@
+li {
+  list-style: none;
+  display: inline-block;
+
+  &:not(:last-child) {
+    padding-right: 24px;
+  }
+}
